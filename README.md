@@ -7,7 +7,7 @@ A collection of small command-line security and data-hygiene tools, written in P
 | Tool | Description | Status |
 |------|-------------|--------|
 | [password-strength-checker](password_strength_checker/) | Scores password strength against length and character-class rules, flags common passwords | 🚧 in progress |
-| csv-cleaner | Normalizes and validates messy CSV data | ⏳ planned |
+| [csv-cleaner](csv_cleaner/) | Normalizes messy CSV data: delimiter detection, header cleanup, blank/duplicate row removal | 🚧 in progress |
 | log-parser | Parses auth/web logs and surfaces suspicious activity | ⏳ planned |
 | url-status-checker | Bulk-checks a list of URLs for HTTP status and reachability | ⏳ planned |
 | http-header-inspector | Inspects HTTP response headers for missing security headers | ⏳ planned |
