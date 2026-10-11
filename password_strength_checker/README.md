@@ -36,6 +36,10 @@ Suggestions:
   - Avoid common or breached passwords
 ```
 
+Note that the score is 5/5 but the rating is **weak**: `Password123!` satisfies
+every complexity rule, yet it sits on the common-password list, which overrides
+the score. That override is the whole point of the tool.
+
 The tool exits with code `0` for a strong password and `1` otherwise, so it can
 be used as a gate in scripts and CI pipelines.
 
